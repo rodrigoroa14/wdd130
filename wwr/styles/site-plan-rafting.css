@@ -7,6 +7,11 @@
     --accent1-color: #6D8EA0;
     --accent2-color: #182825;
 
+    --nav-background-color: #777799;
+    --nav-link-color:  #009900;
+    --nav-hover-link-color: #F08080;
+    --nav-hover-background-color: #87CEFA;
+
     --heading-font: 'Poppins', sans-serif;
     --paragraph-font: 'Roboto Condensed', sans-serif;
    
@@ -18,7 +23,7 @@ body {
     padding: 20px;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -33,23 +38,23 @@ p {
 }
 
 nav {
-    background-color: var(--accent2-color);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
 
 nav a {
     display: block;
-    color:lightgreen;
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-    color: lightsalmon
+    color: var(--nav-hover-link-color)
 }
 
 nav a:hover {
-    color: lightskyblue;
-    background-color: lightcoral;
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color)
 }
