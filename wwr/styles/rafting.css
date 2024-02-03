@@ -76,3 +76,52 @@ article p {
     margin: 0;
 }
 
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    max-width: 1000px;
+    border-bottom: 1px solid #ccc;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+
+
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #ccc
+}
+
+.navigation a {
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-img {
+    margin: 0 0.25rem 0 1rem;
+	width: 90px;
+	height: auto;
+}
+
+.adventures-div-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adventures-div-section img {
+    max-width: 100%;
+    height: auto;
+}
