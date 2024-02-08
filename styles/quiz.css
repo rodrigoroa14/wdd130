@@ -35,15 +35,6 @@ input[type="number"] {
     box-sizing: border-box;
 }
 
-select {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-image: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l4-4 4 4m0 6l-4 4-4-4" /></svg>');
-    background-repeat: no-repeat;
-    background-position: right 10px top 50%;
-    padding-right: 30px;
-}
 
 button[type="submit"] {
     background-color: #007bff;
