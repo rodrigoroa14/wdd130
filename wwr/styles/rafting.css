@@ -125,3 +125,84 @@ footer {
     max-width: 100%;
     height: auto;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px; 
+  }
+
+  .container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.intro-contact {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+  
+  .intro-contact,
+  .map,
+  .employees-fotos,
+  .contact-form {
+    padding: 20px; /* Añade un espacio interno a cada sección */
+  }
+  
+  .contact-form form {
+    display: grid;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+  }
+  
+  
+  .map {
+    justify-self: center;
+    margin-top: 20px;
+  }
+  
+  .employees-fotos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .employees-fotos figure {
+    text-align: center;
+  }
+  
+  .employees-fotos img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .employees-fotos figcaption {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  
+  .contact-form form {
+    text-align: center; 
+  }
+  
+  .contact-form label {
+    display: inline-block; 
+    margin-right: 10px;
+  }
+
+  .contact-form input[type="radio"] {
+    display: inline; 
+}
+  
+  .contact-form textarea {
+    width: 100%; 
+  }
