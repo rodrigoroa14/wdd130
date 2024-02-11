@@ -132,6 +132,10 @@ main {
     gap: 30px; 
   }
 
+main h1 {
+    grid-column: 1;
+}
+
   .container {
     display: flex;
     justify-content: center; 
